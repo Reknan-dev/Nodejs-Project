@@ -12,7 +12,7 @@ app.use('/users', userRoutes);
 app.use('/orders', orderRoutes);
 connectToDB_string = process.env.DB_CONNECTION_STRING;
 
-console.log('DB Connection String:', process.env.DB_CONNECTION_STRING);
+
 
 
 mongoose
